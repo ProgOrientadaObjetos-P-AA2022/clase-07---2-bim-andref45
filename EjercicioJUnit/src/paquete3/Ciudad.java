@@ -14,11 +14,11 @@ public class Ciudad {
     private String nombre;
     private int poblacion;
 
-    public void establecerNombre(String n) {
+    public void establecerNombres(String n) {
         nombre = n;
     }
 
-    public String obtenerNombre() {
+    public String obtenerNombres() {
         return nombre;
     }
 
@@ -34,7 +34,7 @@ public class Ciudad {
     public String toString(){
         String cadena = String.format("Ciudad de Ecuador\n Nombre: %s\n\n\t"
                 + "Población: %d\n",
-                obtenerNombre(),
+                obtenerNombres(),
                 obtenerPoblacion()
                 );
         return cadena;
